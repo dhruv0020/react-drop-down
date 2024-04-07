@@ -1,0 +1,27 @@
+/* src/App.css */
+.dropdown {
+  position: relative;
+}
+
+.dropdown button {
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
